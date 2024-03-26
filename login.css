@@ -1,0 +1,90 @@
+/* Basic Styles (assuming these are already defined in your main style.css) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("login.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group.checkbox label {
+  font-weight: normal;
+}
+
+.login-form button {
+  background-color: #0095ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #007bff;
+}
+
+.forgot-password {
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.signup-text {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.signup-text a {
+  color: #0095ff;
+  text-decoration: underline;
+}

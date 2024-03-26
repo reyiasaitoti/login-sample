@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent-A-Ride - Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="logo">Rent-A-Ride</h1>
+    <form action="login_handler.php" method="post" class="login-form">
+      <h2>Welcome Back!</h2>
+      <div class="form-group">
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group checkbox">
+        <input type="checkbox" id="remember_me" name="remember_me">
+        <label for="remember_me">Remember Me</label>
+      </div>
+      <button type="submit">Login</button>
+      <a href="#" class="forgot-password">Forgot Password?</a>
+    </form>
+    <p class="signup-text">Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+
+  <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+</body>
+</html>
